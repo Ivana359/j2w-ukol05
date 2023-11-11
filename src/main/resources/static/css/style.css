@@ -13,7 +13,7 @@ body {
     color: #111111;
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), white url(https://source.unsplash.com/DqgMHzeio7g) center center/cover no-repeat;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), white url(https://images.unsplash.com/photo-1594208018062-4c87a9bf9476?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +25,68 @@ main {
     padding: 1rem 2rem;
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.5);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+input {
+    height: 1.3rem;
+
+}
+
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.basket .row {
+    display: block;
+    margin-top: 1em;
+}
+.basket .group {
+    display: contents;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chyba {
+    color: red;
+    margin-top: 5px;
+    font-size:12px;
+
+}
+
+head{
+    margin-bottom: 2rem;
+}
+.section {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.radio-group {
+    display: flex;
+    align-items: center;
+
+}
+
+.radio-group label {
+    margin-right: 30px;
+    vertical-align: middle;
 }
